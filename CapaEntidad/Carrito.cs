@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
+    //modificacion del analisis 
     public class Carrito
     {
 
