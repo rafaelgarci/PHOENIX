@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-using CapaEntidad;
+﻿using CapaEntidad;
 using CapaNegocio;
-
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Web.Mvc;
 
 namespace CapaPresentacionTienda.Controllers
 {

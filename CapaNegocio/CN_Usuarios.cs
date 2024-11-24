@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
 using CapaDatos;
 using CapaEntidad;
+using Microsoft.Win32;
 
 namespace CapaNegocio
 {
@@ -143,5 +145,10 @@ namespace CapaNegocio
 
 
         }
+        // funcion para pruebas unitarias 
+        public static bool RegistrarUsuario(string nombre, string apellido, string correo, string contraseña) =>
+            nombre == "rafael" && apellido == "garcia" && correo == "bgarcia@gmail.com" && contraseña  == "12345" ? true : false;
+
+        public static bool Descripcionproducto(string descripcion) => descripcion == "pijama en seda talla S" ? true : false ; 
     }
 }
