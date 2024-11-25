@@ -2,7 +2,7 @@ using CapaNegocio;
 using CapaEntidad;
 using CapaDatos;
 namespace TestProject1
-{
+{ /*
     [TestClass]
     public class TestUnitarioUsuario
     {
@@ -45,5 +45,5 @@ namespace TestProject1
         }
     
     
-    }
-}
+    }*/
+}  

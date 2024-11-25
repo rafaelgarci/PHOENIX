@@ -145,10 +145,11 @@ namespace CapaNegocio
 
 
         }
+        /*
         // funcion para pruebas unitarias 
         public static bool RegistrarUsuario(string nombre, string apellido, string correo, string contraseña) =>
             nombre == "rafael" && apellido == "garcia" && correo == "bgarcia@gmail.com" && contraseña  == "12345" ? true : false;
 
-        public static bool Descripcionproducto(string descripcion) => descripcion == "pijama en seda talla S" ? true : false ; 
+        public static bool Descripcionproducto(string descripcion) => descripcion == "pijama en seda talla S" ? true : false ; */
     }
 }
